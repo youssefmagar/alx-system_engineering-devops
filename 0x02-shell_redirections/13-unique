@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq list.txt
+tr ' ' '\n' | sort | uniq -u
